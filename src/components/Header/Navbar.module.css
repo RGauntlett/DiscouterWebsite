@@ -1,0 +1,25 @@
+.Navbar button {
+  color: #f8f9fa;
+}
+
+.SocialIcons svg:hover {
+  background-color: #27d1fc;
+}
+
+.discouterDropdown a {
+  color: black;
+}
+
+.discouterDropdown a:hover {
+  text-decoration: underline;
+  color: grey;
+  background-color: white;
+}
+
+.discouterDropdown dropdown-item.active {
+  background-color: white;
+}
+
+.Navbar img {
+  border-radius: 90%;
+}

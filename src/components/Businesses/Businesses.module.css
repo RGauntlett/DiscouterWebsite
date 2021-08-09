@@ -1,0 +1,26 @@
+.Businesses h2 {
+  color: rgb(223, 219, 219);
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.Businesses h3 {
+  color: rgb(223, 219, 219);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Businesses p {
+  color: rgb(223, 219, 219);
+  font-weight: bold;
+  font-size: normal;
+}
+
+.MainImg div {
+  overflow: hidden;
+  float: left;
+}
+.MainImg img {
+  height: 25rem;
+  width: 100%;
+}

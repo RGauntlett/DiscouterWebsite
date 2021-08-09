@@ -1,0 +1,22 @@
+.Contact {
+  margin-top: 5em;
+}
+
+.Contact h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(223, 219, 219);
+}
+
+.Contact h4 {
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(223, 219, 219);
+}
+
+.Contact a {
+  font-size: x-large;
+  font-weight: bold;
+  color: #27d1fc;
+  margin-top: 8rem;
+}

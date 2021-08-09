@@ -1,13 +1,15 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
-import HomeImage1 from "../../assets/Sketch_Collage_Black_Borders_copy.jpg";
-import HomeImage2 from "../../assets/Business_Collage.jpg";
+import { Container, Row, Col } from "react-bootstrap";
+import HomeImage1 from "../../assets/WelcomePicture.png";
+import HomeImage2 from "../../assets/BusinessImg.jpg";
 import styles from "./Home.module.css";
+import { LinkContainer } from "react-router-bootstrap";
+import PageButton from "../UI/PageButton";
 
 const Home = (props) => {
   return (
     <Container className={styles.home}>
-      <Row className="mt-3 align-items-center">
-        <Col>
+      <Row className="mt-5 align-items-center">
+        <Col sm={12} md={{ span: 5, offset: 1 }}>
           <img
             src={HomeImage1}
             width="100%"
@@ -16,19 +18,21 @@ const Home = (props) => {
             alt="Home"
           />
         </Col>
-        <Col className={styles.textCol}>
-          <h2>For our Users</h2>
+        <Col sm={12} md={5} className={styles.textCol}>
+          <h2 className="mt-3">For our Users</h2>
           <p>
             Explore the Discouter App to discover discounts at local businesses
             on the Northern Beaches. Support our local small businesses and
             claim the offers that they provide exclusively to our users!
           </p>
-          <Button>Join Us!</Button>
+          <LinkContainer to="/UsersPage">
+            <PageButton>Join Us!</PageButton>
+          </LinkContainer>
         </Col>
       </Row>
 
       <Row className="mt-3 align-items-center">
-        <Col className={styles.textCol}>
+        <Col sm={12} md={{ span: 5, offset: 1 }} className={styles.textCol}>
           <h2>Your Business</h2>
           <p>
             Allow Discouter to ease both the financial and time costs associated
@@ -36,9 +40,11 @@ const Home = (props) => {
             based solely on the Northern Beaches, we give you a direct line of
             contact you your customer base.
           </p>
-          <Button>Find Out More!</Button>
+          <LinkContainer to="/BusinessPage">
+            <PageButton>Find Out More!</PageButton>
+          </LinkContainer>
         </Col>
-        <Col>
+        <Col sm={{ size: 12, order: "first" }} md={{ order: "last", span: 5 }}>
           <img
             src={HomeImage2}
             width="100%"

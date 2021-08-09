@@ -1,0 +1,21 @@
+.FAQ h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(223, 219, 219);
+}
+
+.FAQ h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(223, 219, 219);
+}
+
+.FAQ p {
+  font-weight: normal;
+  font-size: 1rem;
+  color: rgb(223, 219, 219);
+}
+
+.FAQ a {
+  color: #27d1fc;
+}

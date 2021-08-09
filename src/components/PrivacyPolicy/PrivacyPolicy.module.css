@@ -1,0 +1,11 @@
+.PrivacyPolicy h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(223, 219, 219);
+}
+
+.PrivacyPolicy p {
+  font-weight: normal;
+  font-size: 1rem;
+  color: rgb(223, 219, 219);
+}
