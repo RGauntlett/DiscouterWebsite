@@ -1,0 +1,13 @@
+.home p {
+  color: rgb(223, 219, 219);
+}
+
+.home h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(223, 219, 219);
+}
+
+.textCol {
+  padding: 0%;
+}
